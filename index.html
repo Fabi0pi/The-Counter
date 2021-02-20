@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- META FILE -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Counter</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+  </head>
+  <body onload="window.alert('press the + and - buttons to increase or decrease the value')">
+
+    <!-- ============================ START MAIN AREA ------------------------------>
+    <main class="site-main">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 decrease" onmousedown="return false">
+          </div>
+          <div class="col-lg-6 col-md-12 display">
+            <p id="figure">0</p>
+          </div>
+          <div class="col-lg-6 col-md-12 increase" onmousedown="return false">
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <!-- ============================ END MAIN AREA -------------------------------->
+
+    <!-- JS FILE -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
